@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gacha Hub</string>
+
+    <array name="games">
+        <item>Fire Emblem Heroes</item>
+        <item>Last Cloudia</item>
+        <item>Fate/Grand Order</item>
+        <item>Granblue Fantasy</item>
+    </array>
+</resources>

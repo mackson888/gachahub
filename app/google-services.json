@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "932196115382",
+    "firebase_url": "https://gacha-hub-44da9.firebaseio.com",
+    "project_id": "gacha-hub-44da9",
+    "storage_bucket": "gacha-hub-44da9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932196115382:android:66281f351a4801c77c1717",
+        "android_client_info": {
+          "package_name": "com.macksonlima.gachahub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932196115382-p9n5b8bh7hc2cmhnml043n0j5k7oh29u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.macksonlima.gachahub",
+            "certificate_hash": "2f67669aa2c6a63d31dfe41b2836b9076a1b4181"
+          }
+        },
+        {
+          "client_id": "932196115382-j9gr029o1bts66jmi4u684jglkskuuko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8b--fSr0TPOASuOFyRBWmpkNInveS2T0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932196115382-j9gr029o1bts66jmi4u684jglkskuuko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

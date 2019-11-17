@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewNameProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="user's Profile"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/GameName"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Game" />
+
+                <Spinner
+                    android:id="@+id/spinnerGameList"
+                    android:layout_width="290dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:entries="@array/games" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/GameCode"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:text="Code"
+                    tools:layout_weight="1" />
+
+                <EditText
+                    android:id="@+id/editTextGameCode"
+                    android:layout_width="334dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/buttonAddGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Game" />
+
+        <ListView
+            android:id="@+id/listViewGames"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
